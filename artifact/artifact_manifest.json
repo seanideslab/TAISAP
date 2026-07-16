@@ -1,0 +1,5 @@
+{
+  "schema_version": "0.1.0",
+  "description": "TAISAP release artifact manifest template. Populate row counts, checksums, provenance, seeds, and release status after data generation.",
+  "files": []
+}
