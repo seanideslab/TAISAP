@@ -9,9 +9,6 @@ The repository includes one synthetic row for every required input table. To res
 ```sh
 python3 artifact/scripts/populate_test_fixtures.py
 ```
-
-These values are testing fixtures only and are not TAISAP research results.
-
 ## 1. Validate the artifact contract
 
 With Make:

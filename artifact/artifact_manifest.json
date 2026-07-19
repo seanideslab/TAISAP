@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "description": "TAISAP release artifact manifest populated with synthetic testing fixtures. Values are not research results.",
+  "description": "TAISAP release artifact manifest populated with synthetic testing fixtures.",
   "files": [
     {
       "file": "ablation_sessions.csv",
