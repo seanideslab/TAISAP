@@ -1,0 +1,2 @@
+command_id,command,expected_route,expected_response_class,source
+fixture_command_001,pwd,DET,directory,fixture

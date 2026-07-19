@@ -1,0 +1,2 @@
+configuration,session_id,backend,session_turns,ica_correct_count,ica_denominator,attacker_visible_success_count,fixture_note
+B3-TEST,fixture_session_001,fixture_backend,1,1,1,0,synthetic_testing_fixture_not_research_result

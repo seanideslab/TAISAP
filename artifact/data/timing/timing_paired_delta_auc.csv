@@ -1,0 +1,2 @@
+classifier,auc_iid,auc_hmm,delta_auc,ci95_low,ci95_high,bootstrap_replicates
+logistic_regression,0.5,0.5,0.0,0.0,0.0,1

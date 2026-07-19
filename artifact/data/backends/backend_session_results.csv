@@ -1,0 +1,2 @@
+backend_id,snapshot,session_id,llm_call_count,probe_count,api_error_count,timeout_count,rollback_event_count,sessions_with_rollback,errsim_fallback_count,attacker_visible_failure_count,latency_p50_ms,latency_p95_ms,latency_p99_ms
+fixture_backend,fixture_snapshot_2026-07-19,fixture_session_001,0,1,0,0,0,0,0,0,1.0,1.0,1.0

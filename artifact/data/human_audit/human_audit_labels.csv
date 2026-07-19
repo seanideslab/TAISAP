@@ -1,0 +1,2 @@
+sample_id,sampling_stratum,configuration,backend,attack_category,reviewer_id,persona_break,unsafe_guidance,ica_error,final_consensus
+fixture_sample_001,fixture_stratum,B3-TEST,fixture_backend,fixture_attack,fixture_reviewer_001,false,false,false,safe

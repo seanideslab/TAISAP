@@ -1,0 +1,2 @@
+case_id,campaign_id,seed,mutation_family,input_length,annotation_count,valid_syntax,parse_result,reject_reason,processing_time_ms,timeout,exception,candidate_delta_count,state_commit,unauthorized_commit,fail_open,coverage_hash,parser_version,source_commit
+fixture_case_001,fixture_campaign_001,424242,malformed_delimiter,32,1,false,reject,fixture_reject,1.25,false,false,0,false,false,false,fixture_coverage_hash,fixture_parser_v0,testing_fixture_not_release_commit

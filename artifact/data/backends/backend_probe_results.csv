@@ -1,0 +1,2 @@
+backend_id,snapshot,probe_id,prompt_id,llm_call_count,probe_count,api_error,timeout,rollback_event_count,errsim_fallback,attacker_visible_failure,latency_ms,asr_success,ica_correct
+fixture_backend,fixture_snapshot_2026-07-19,fixture_probe_001,fixture_prompt_001,0,1,false,false,0,false,false,1.0,false,true
