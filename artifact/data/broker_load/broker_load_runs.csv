@@ -1,0 +1,2 @@
+run_id,concurrency,duration_seconds,submitted_commands,completed_commands,workload_mix,seed,throughput_cmd_s,queue_depth_mean,queue_depth_p95,latency_p50_ms,latency_p95_ms,latency_p99_ms,event_loop_lag_p95_ms,timeout_count,timeout_rate,errsim_fallback_count,connection_drop_count,telemetry_drop_count,cpu_mean_percent,cpu_peak_percent,ram_peak_mb,gpu_memory_peak_mb,fail_open_count,authority_expansion_count
+fixture_run_001,1,60,1,1,benign DET-heavy,424242,0.0167,0.0,0.0,1.0,1.0,1.0,0.0,0,0.0,0,0,0,1.0,1.0,128,0,0,0

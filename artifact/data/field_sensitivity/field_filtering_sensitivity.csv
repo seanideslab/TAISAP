@@ -1,0 +1,2 @@
+pseudonymous_source_id,session_id,lookup_date,riot,noise,classification,api_success,fail_open,unique_command_count,retained_threshold_3,retained_threshold_5,retained_threshold_10,det_count,llm_count,errsim_count,quar_count,session_duration
+fixture_source_001,fixture_session_001,2026-07-19,false,false,unknown,true,false,3,true,false,false,1,0,0,0,60

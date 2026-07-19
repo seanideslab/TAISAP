@@ -1,0 +1,2 @@
+sequence_id,condition,classifier,auc_group,y_true,y_score_iid,y_score_hmm,split
+fixture_sequence_001,fixture_condition,logistic_regression,fixture,0,0.1,0.1,test

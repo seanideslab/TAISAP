@@ -2,6 +2,13 @@
 
 Run all commands from the repository root. No third-party Python packages are required; the scripts use only the Python standard library. GNU Make is optional because every Make target has an equivalent Python command.
 
+## 0. Populate synthetic testing fixtures
+
+The repository includes one synthetic row for every required input table. To reset those fixtures before testing, run:
+
+```sh
+python3 artifact/scripts/populate_test_fixtures.py
+```
 ## 1. Validate the artifact contract
 
 With Make:
