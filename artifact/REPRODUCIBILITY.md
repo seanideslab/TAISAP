@@ -17,7 +17,7 @@ Every generated table or summary must record:
 
 ## Stable Rebuild Interface
 
-Run `make all` from the repository root to rebuild all generated tables once the raw artifact data are available. Individual public targets are:
+Run `make all` from the repository root to rebuild all generated tables once the raw artifact data are available. If GNU Make is unavailable, run `python3 artifact/scripts/run_all.py --target all`; no third-party Python packages are required. Individual public targets are:
 
 ```sh
 make table_ablation
@@ -31,6 +31,14 @@ make load_summary
 make audit_agreement
 make field_sensitivity
 make all
+```
+
+Portable no-Make equivalents are:
+
+```sh
+python3 artifact/scripts/run_all.py --target validate_artifact
+python3 artifact/scripts/run_all.py --target authority_path
+python3 artifact/scripts/run_all.py --target all
 ```
 
 ## Evidence Language Constraints

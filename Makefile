@@ -1,36 +1,37 @@
 .PHONY: table_ablation table_backends table_timing table_robustness authority_path clustered_ci fuzz_summary load_summary audit_agreement field_sensitivity validate_artifact all
 
-VALIDATE_ARTIFACT := python3 artifact/scripts/validate_artifact.py
+VALIDATE_ARTIFACT := PYTHONDONTWRITEBYTECODE=1 python3 artifact/scripts/validate_artifact.py
+GENERATE_TABLE := PYTHONDONTWRITEBYTECODE=1 python3 artifact/scripts/generate_table_files.py
 
 table_ablation:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 table_backends:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 table_timing:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 table_robustness:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 authority_path:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 clustered_ci:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 fuzz_summary:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 load_summary:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 audit_agreement:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 field_sensitivity:
-	$(VALIDATE_ARTIFACT) --target $@
+	$(GENERATE_TABLE) --target $@
 
 validate_artifact:
 	$(VALIDATE_ARTIFACT) --target all

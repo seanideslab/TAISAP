@@ -1,30 +1,65 @@
 # Commands for Generating TAISAP Table Files
 
-Run all commands from the repository root.
+Run all commands from the repository root. No third-party Python packages are required; the scripts use only the Python standard library. GNU Make is optional because every Make target has an equivalent Python command.
 
 ## 1. Validate the artifact contract
 
+With Make:
+
 ```sh
 make validate_artifact
+```
+
+Without Make:
+
+```sh
+python3 artifact/scripts/run_all.py --target validate_artifact
 ```
 
 This checks that the schema, manifest template, directories, and documentation stay synchronized.
 
 ## 2. Generate one table file
 
+With Make:
+
 ```sh
 make authority_path
+```
+
+Without Make:
+
+```sh
+python3 artifact/scripts/run_all.py --target authority_path
 ```
 
 Replace `authority_path` with any public target listed below. Each target writes `artifact/generated_tables/<target>.csv` and records the input files required for that table, their expected paths, presence, row counts, generation time, and source commit.
 
 ## 3. Generate all table files
 
+With Make:
+
 ```sh
 make all
 ```
 
+Without Make:
+
+```sh
+python3 artifact/scripts/run_all.py --target all
+```
+
 This generates the scaffold table files for every target and then runs full validation.
+
+## Direct Python commands
+
+If you do not want to use the wrapper, call the scripts directly:
+
+```sh
+python3 artifact/scripts/validate_artifact.py --target all
+python3 artifact/scripts/generate_table_files.py --target authority_path
+```
+
+Use `--target` with any public target listed below.
 
 ## Public targets
 
