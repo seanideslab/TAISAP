@@ -23,6 +23,16 @@ SCHEMA_PATH = REPO_ROOT / "artifact" / "configs" / "artifact_schema.json"
 GENERATED_TABLES_DIR = REPO_ROOT / "artifact" / "generated_tables"
 
 DATA_LOCATIONS = {
+    "baseline_ablation_results.csv": "artifact/data/ablation/baseline_ablation_results.csv",
+    "prompt_injection_expanded_results.csv": "artifact/data/ablation/prompt_injection_expanded_results.csv",
+    "model_generalization_results.csv": "artifact/data/backends/model_generalization_results.csv",
+    "containment_stress_results.csv": "artifact/data/ablation/containment_stress_results.csv",
+    "svl_state_poisoning_results.csv": "artifact/data/ablation/svl_state_poisoning_results.csv",
+    "benign_false_positive_results.csv": "artifact/data/ablation/benign_false_positive_results.csv",
+    "timing_sequence_results.csv": "artifact/data/timing/timing_sequence_results.csv",
+    "broker_load_results.csv": "artifact/data/broker_load/broker_load_results.csv",
+    "parser_fuzz_results.csv": "artifact/data/fuzzing/parser_fuzz_results.csv",
+    "errsim_ablation_results.csv": "artifact/data/errsim_ablation/errsim_ablation_results.csv",
     "ablation_sessions.csv": "artifact/data/ablation/ablation_sessions.csv",
     "ablation_turns.csv": "artifact/data/ablation/ablation_turns.csv",
     "adversarial_probes.csv": "artifact/data/ablation/adversarial_probes.csv",

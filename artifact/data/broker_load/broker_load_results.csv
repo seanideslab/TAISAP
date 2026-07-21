@@ -1,0 +1,2 @@
+run_id,concurrency,throughput_cmd_s,latency_p95_ms,timeout_rate,fail_open_count,authority_expansion_count,fixture_note
+fixture_run_001,1,0.0167,1.0,0.0,0,0,synthetic_testing_fixture_not_research_result

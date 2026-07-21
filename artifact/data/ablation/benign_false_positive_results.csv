@@ -1,0 +1,2 @@
+command_id,command,expected_route,actual_route,false_positive,fixture_note
+fixture_command_001,pwd,DET,DET,false,synthetic_testing_fixture_not_research_result

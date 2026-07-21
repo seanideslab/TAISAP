@@ -1,0 +1,2 @@
+backend_id,snapshot,prompt_count,paired_asr_difference,paired_ica_difference,api_error_rate,timeout_rate,rollback_rate_per_call,fixture_note
+fixture_backend,fixture_snapshot_2026-07-19,1,0.0,0.0,fixture_api_error_rate,0.0,fixture_rollback_rate_per_call,synthetic_testing_fixture_not_research_result

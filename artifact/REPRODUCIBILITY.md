@@ -30,6 +30,7 @@ make fuzz_summary
 make load_summary
 make audit_agreement
 make field_sensitivity
+make errsim_ablation
 make all
 ```
 

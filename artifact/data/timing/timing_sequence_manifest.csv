@@ -1,2 +1,2 @@
 sequence_id,condition,source_session_id,collection_day,split,turn_count,command_schedule_id,route_mix
-fixture_sequence_001,fixture_condition,fixture_source_session_001,2026-07-19,test,1,fixture_schedule_001,DET=1
+fixture_sequence_001,B3-ERRSIM-TEST,fixture_source_session_001,2026-07-19,test,1,fixture_schedule_001,DET=1

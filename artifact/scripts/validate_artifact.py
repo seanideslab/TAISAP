@@ -23,24 +23,27 @@ DATA_DICTIONARY_PATH = REPO_ROOT / "artifact" / "DATA_DICTIONARY.md"
 REPRODUCIBILITY_PATH = REPO_ROOT / "artifact" / "REPRODUCIBILITY.md"
 
 TARGETS = {
-    "table_ablation": ["ablation_sessions.csv", "ablation_turns.csv"],
-    "table_backends": [
-        "backend_probe_results.csv",
-        "backend_session_results.csv",
-        "backend_paired_comparisons.csv",
+    "table_ablation": [
+        "baseline_ablation_results.csv",
+        "prompt_injection_expanded_results.csv",
     ],
-    "table_timing": [
-        "timing_sequence_manifest.csv",
-        "timing_predictions.csv",
-        "timing_paired_delta_auc.csv",
+    "table_backends": ["model_generalization_results.csv"],
+    "table_timing": ["timing_sequence_results.csv"],
+    "table_robustness": [
+        "containment_stress_results.csv",
+        "svl_state_poisoning_results.csv",
+        "benign_false_positive_results.csv",
     ],
-    "table_robustness": ["containment_cases.csv", "state_poisoning_cases.csv"],
     "authority_path": ["authority_path_decomposition.csv"],
-    "clustered_ci": ["adversarial_probes.csv"],
-    "fuzz_summary": ["parser_fuzz_cases.csv", "parser_fuzz_campaigns.csv"],
-    "load_summary": ["broker_load_runs.csv"],
+    "clustered_ci": [
+        "baseline_ablation_results.csv",
+        "prompt_injection_expanded_results.csv",
+    ],
+    "fuzz_summary": ["parser_fuzz_results.csv"],
+    "load_summary": ["broker_load_results.csv"],
     "audit_agreement": ["human_audit_labels.csv"],
     "field_sensitivity": ["field_filtering_sensitivity.csv"],
+    "errsim_ablation": ["errsim_ablation_results.csv"],
 }
 
 

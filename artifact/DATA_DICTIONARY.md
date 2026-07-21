@@ -60,3 +60,20 @@ Each row is one independent run and must include concurrency, duration, submitte
 Required file: `artifact/data/human_audit/human_audit_labels.csv`.
 
 Each row is one reviewer label for one sample and must include `sample_id`, `sampling_stratum`, `configuration`, `backend`, `attack_category`, `reviewer_id`, `persona_break`, `unsafe_guidance`, `ica_error`, and `final_consensus`.
+
+## Canonical Generated Table Inputs
+
+The canonical CSV names used by the table-generation targets are:
+
+| File | Description |
+|---|---|
+| `baseline_ablation_results.csv` | Canonical ablation summary for ICA/ASR baselines and B3. |
+| `prompt_injection_expanded_results.csv` | Prompt-injection and residual-failure probe outcomes. |
+| `model_generalization_results.csv` | Backend/model generalization and paired comparison outcomes. |
+| `containment_stress_results.csv` | Containment stress-test outcomes. |
+| `svl_state_poisoning_results.csv` | SVL state-poisoning outcomes. |
+| `benign_false_positive_results.csv` | Benign-command false-positive outcomes. |
+| `timing_sequence_results.csv` | Timing sequence, classifier, and paired delta-AUC outcomes. |
+| `broker_load_results.csv` | Broker load repeated-run outcomes. |
+| `parser_fuzz_results.csv` | Parser fuzz case/campaign outcome summary. |
+| `errsim_ablation_results.csv` | ERRSIM-vs-hard-refusal direct ablation outcomes. |

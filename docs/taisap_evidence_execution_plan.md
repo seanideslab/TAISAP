@@ -56,22 +56,17 @@ The release artifact should contain at least the following files:
 
 | File | Purpose |
 |---|---|
-| `ablation_sessions.csv` | Session-level ablation outcomes. |
-| `ablation_turns.csv` | Turn-level ablation outcomes. |
-| `adversarial_probes.csv` | Probe metadata and outcomes. |
+| `baseline_ablation_results.csv` | Canonical ablation summary for ICA/ASR baselines and B3. |
+| `prompt_injection_expanded_results.csv` | Canonical prompt-injection and residual-failure probe results. |
+| `model_generalization_results.csv` | Canonical four-backend/model generalization results. |
+| `containment_stress_results.csv` | Canonical containment stress-test outcomes. |
+| `svl_state_poisoning_results.csv` | Canonical SVL state-poisoning outcomes. |
+| `benign_false_positive_results.csv` | Canonical benign-command false-positive outcomes. |
+| `timing_sequence_results.csv` | Canonical timing sequence and paired delta-AUC outcomes. |
+| `broker_load_results.csv` | Canonical broker load repeated-run outcomes. |
+| `parser_fuzz_results.csv` | Canonical parser fuzz case/campaign outcomes. |
+| `errsim_ablation_results.csv` | Canonical ERRSIM-vs-hard-refusal ablation outcomes. |
 | `authority_path_decomposition.csv` | P0-1 authority-path decomposition for residual failures. |
-| `parser_fuzz_cases.csv` | P0-3 per-case fuzz results. |
-| `parser_fuzz_campaigns.csv` | P0-3 campaign metadata. |
-| `broker_load_runs.csv` | P0-4 run-level broker load results. |
-| `backend_probe_results.csv` | P0-5 probe-level backend outcomes. |
-| `backend_session_results.csv` | P0-5 session-level backend outcomes. |
-| `backend_paired_comparisons.csv` | P0-5 paired backend tests. |
-| `timing_sequence_manifest.csv` | P0-6 timing sequence metadata and split membership. |
-| `timing_predictions.csv` | P0-6 sequence-level timing predictions. |
-| `timing_paired_delta_auc.csv` | P0-6 paired delta-AUC summary. |
-| `containment_cases.csv` | Containment evaluation cases. |
-| `state_poisoning_cases.csv` | State-poisoning evaluation cases. |
-| `benign_commands.csv` | Benign command corpus. |
 | `human_audit_labels.csv` | P0-7 de-identified reviewer labels. |
 | `field_filtering_sensitivity.csv` | P1-1 threshold and GreyNoise sensitivity. |
 | `artifact_manifest.json` | Checksums, provenance, and release status. |
@@ -93,6 +88,7 @@ make fuzz_summary
 make load_summary
 make audit_agreement
 make field_sensitivity
+make errsim_ablation
 make all
 ```
 

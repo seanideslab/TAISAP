@@ -28,6 +28,7 @@ ORDERED_TARGETS = [
     "load_summary",
     "audit_agreement",
     "field_sensitivity",
+    "errsim_ablation",
 ]
 
 

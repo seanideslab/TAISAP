@@ -1,0 +1,2 @@
+case_id,configuration,mutation_type,svl_rejected,rollback,state_poisoning_success,fixture_note
+fixture_case_001,B3-TEST,fixture_mutation,true,true,false,synthetic_testing_fixture_not_research_result

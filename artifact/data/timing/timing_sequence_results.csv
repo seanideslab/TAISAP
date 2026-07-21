@@ -1,0 +1,2 @@
+sequence_id,condition,classifier,auc_iid,auc_hmm,delta_auc,ci95_low,ci95_high,split,fixture_note
+fixture_sequence_001,B3-ERRSIM-TEST,logistic_regression,0.5,0.5,0.0,0.0,0.0,test,synthetic_testing_fixture_not_research_result

@@ -1,4 +1,4 @@
-.PHONY: table_ablation table_backends table_timing table_robustness authority_path clustered_ci fuzz_summary load_summary audit_agreement field_sensitivity validate_artifact all
+.PHONY: table_ablation table_backends table_timing table_robustness authority_path clustered_ci fuzz_summary load_summary audit_agreement field_sensitivity errsim_ablation validate_artifact all
 
 VALIDATE_ARTIFACT := PYTHONDONTWRITEBYTECODE=1 python3 artifact/scripts/validate_artifact.py
 GENERATE_TABLE := PYTHONDONTWRITEBYTECODE=1 python3 artifact/scripts/generate_table_files.py
@@ -33,7 +33,10 @@ audit_agreement:
 field_sensitivity:
 	$(GENERATE_TABLE) --target $@
 
+errsim_ablation:
+	$(GENERATE_TABLE) --target $@
+
 validate_artifact:
 	$(VALIDATE_ARTIFACT) --target all
 
-all: table_ablation table_backends table_timing table_robustness authority_path clustered_ci fuzz_summary load_summary audit_agreement field_sensitivity validate_artifact
+all: table_ablation table_backends table_timing table_robustness authority_path clustered_ci fuzz_summary load_summary audit_agreement field_sensitivity errsim_ablation validate_artifact

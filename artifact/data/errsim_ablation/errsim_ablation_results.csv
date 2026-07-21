@@ -1,0 +1,2 @@
+condition,session_id,probe_id,response_policy,honeypot_ai_detection,explicit_policy_disclosure,persona_break,session_abandonment,paired_session_duration_seconds,fixture_note
+B3-ERRSIM-TEST,fixture_session_001,fixture_probe_001,deception-consistent Linux error,false,false,false,false,60,synthetic_testing_fixture_not_research_result
