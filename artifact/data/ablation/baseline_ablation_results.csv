@@ -1,0 +1,2 @@
+configuration,session_id,backend,exact_correct_count,exact_denominator,point_estimate,clustered_ci_low,clustered_ci_high,fixture_note
+B3-TEST,fixture_session_001,fixture_backend,1,1,1.0,1.0,1.0,synthetic_testing_fixture_not_research_result

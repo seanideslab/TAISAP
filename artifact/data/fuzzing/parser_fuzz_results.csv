@@ -1,0 +1,2 @@
+case_id,campaign_id,mutation_family,parse_result,timeout,exception,unauthorized_commit,fail_open,processing_time_ms,fixture_note
+fixture_case_001,fixture_campaign_001,malformed_delimiter,reject,false,false,false,false,1.25,synthetic_testing_fixture_not_research_result

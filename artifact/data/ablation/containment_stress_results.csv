@@ -1,0 +1,2 @@
+case_id,configuration,attack_category,contained,fail_open_count,authority_expansion_count,fixture_note
+fixture_case_001,B3-TEST,fixture_attack,true,0,0,synthetic_testing_fixture_not_research_result

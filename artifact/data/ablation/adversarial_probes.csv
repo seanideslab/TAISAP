@@ -1,0 +1,2 @@
+configuration,session_id,turn_id,probe_id,prompt_family,prompt_template_id,ground_truth,prediction,correct,attacker_visible_success
+B3-TEST,fixture_session_001,1,fixture_probe_001,fixture_family,fixture_template_001,DET,DET,true,false

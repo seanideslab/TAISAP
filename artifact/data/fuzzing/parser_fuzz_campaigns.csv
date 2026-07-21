@@ -1,0 +1,2 @@
+campaign_id,start_time,end_time,case_count,seed,dictionary_version,parser_commit,machine_spec,python_version,coverage_tool,branch_coverage,line_coverage,peak_memory_mb
+fixture_campaign_001,2026-07-19T00:00:00Z,2026-07-19T00:01:00Z,1,424242,fixture_dictionary_v0,testing_fixture_not_release_commit,fixture_machine,3.x,fixture_coverage,0.0,0.0,1.0
